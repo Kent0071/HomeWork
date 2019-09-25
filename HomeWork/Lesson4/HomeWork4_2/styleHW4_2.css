@@ -1,0 +1,18 @@
+.menu {
+    height: 40px;
+    width: 980px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rebeccapurple;
+}
+.punktMenu {
+    margin: auto;
+    display: inline-block;
+    padding: 8px 20px 8px 20px;
+}
+a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
