@@ -3,7 +3,7 @@
     height: 960px;
    position: relative;
 }
-.lake {
+.box .lake {
     width: 1200px;
     height: 960px;
 }
@@ -14,7 +14,7 @@
     top: 360px;
     right: -60px;
 }
-.stone {
+.box .stone {
    position: absolute;
     width: 400px;
     height: 400px;
@@ -22,7 +22,7 @@
     bottom: 0;
     left: 0;
 }
-.boat {
+.box .boat {
     position: absolute;
     z-index: 3;
     right: 140px;
@@ -30,7 +30,7 @@
     width: 300px;
     height: 300px;
 }
-.grasshopper {
+.box .grasshopper {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -38,7 +38,7 @@
     bottom: 300px;
     left: 220px;
 }
-.moose {
+.box .moose {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -46,7 +46,7 @@
     left: 400px;
     z-index: 3;
 }
-.butterfly {
+.box .butterfly {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -54,7 +54,7 @@
     bottom: 260px;
     left: 340px;
 }
-.falcon {
+.box .falcon {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -62,7 +62,7 @@
     top: 0px;
     right: 0px;
 }
-.oldman {
+.box .oldman {
     position: absolute;
     z-index: 4;
     width: 150px;
@@ -70,7 +70,7 @@
     bottom: 372px;
     right: 128px;
 }
-.frog {
+.box .frog {
     width: 150px;
     height: 150px;
     z-index: 2;
@@ -78,7 +78,7 @@
     bottom: 0px;
     left: 100px;
 }
-.tree {
+.box .tree {
     position: absolute;
     z-index: 2;
     width: 200px;
