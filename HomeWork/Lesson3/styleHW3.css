@@ -1,37 +1,39 @@
+.clearfix {
+    clear: both;
+}
 .calendar {
-    width: 220px;
-    height: 280px;
+    width: 210px;
     text-align: center;
     border: 10px outset #802002;
     color: rgb(0, 4, 255);
-   background: url("g1.png") no-repeat center/* #d6c3bc*/;
+   background: url("g1.png") no-repeat center center;
    margin: auto;
 }
-h1 {
+.calendar-title {
     font-size: 30px;
     color:  black;
 }
-.day {
-    height: 30px;
+.calendar .weeksDay {
+  
     width: 30px;
-    /*padding-bottom: 5px;*/
-   /* padding-top: 5px;*/
-    padding-right: 1.2px;
-    /*text-align: center;*/
     float: left;
-}
-.weeksDay {
-    height: 30px;
-    width: 30px;
-    padding: 0px 1px 0px 0px;
-    font-size: 22.5px;
+    font-size: 20px;
     color: darkblue;
     text-align: center;
 }
-#weekend {
+.calendar .day {
+    width: 30px;
+    padding: 5px 0px;
+    float: left;
+}
+
+.calendar .weekend {
     color: rgb(156, 2, 2);
 }
-#presentDay {
+.presentDay {
 
     background:rgba(255, 0, 0, .59);
+}
+.presentDay:hover{
+    background: yellowgreen;
 }
