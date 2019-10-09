@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #773;
+}
+.clearfix {
+    clear: both;
+}
+#header {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: darkblue;
+    text-align: center;
+}
+.bird-loggo {
+    margin: 0 auto;
+    padding-left: 150px;
+    width: 200px;
+    height: 100px;
+}
+.contact {
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+.contact p {
+    font-size: 24px;
+    color: #fff;
+    margin: 0px 0px;
+}
+.menu{
+    max-width: 1024px;
+    margin: 0 auto;
+    list-style: none;
+}
+.menu-horizontal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+.menu-horizontal-list-item {
+    float: left;
+    padding: 10px 20px;
+}
+.menu-horizontal-list-item a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu-horizontal-list-item:hover{
+    background: #777;
+
+}
+
+#main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+  
+}
+.left-panel{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    background: #333;
+}
+.main-content{
+    min-height: 1000px;
+    background: #777;
+    float: left;
+    width: calc(100% - 320px);
+}
+.menu-left-panel{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-left-panel-list-item{
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+}
+.menu-left-panel-list-item a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;   
+}
+.menu-left-panel-list-item:hover {
+    background: #777;
+}
+.name-content {
+    text-align: center;
+}
+.main-content p {
+    padding: 0px 20px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.main-content p:nth-last-of-type(2) {
+    text-transform: uppercase;
+}
+.main-content p:nth-last-of-type(1) {
+    line-height: 30px;
+}
+.main-content h2 {
+    text-align: center;
+}
+.main-content .crossbow{
+    width: 200px;
+    height: 200px;
+    
+
+}
+.main-content .img1 {
+    float: left;
+    width: 220px;
+    height: 225px;
+    padding: 0px 40px 0px 20px;
+    margin: 0;
+}
+.main-content .gun {
+    width: 200px;
+    height: 200px;
+}
+.main-content .img2 {
+    float: right;
+    width: 220px;
+    height: 225px;
+    padding: 0px 20px;
+    margin: 0;
+}
+#strong {
+    font-weight: 900;
+}
+#decoration {
+    text-decoration: line-through;
+}
+#decoration1 {
+    text-decoration: underline;
+}
+#footer .wrapper {
+    background: darkblue;
+}
