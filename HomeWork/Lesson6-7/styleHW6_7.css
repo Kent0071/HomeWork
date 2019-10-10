@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'blackcasperregular';
-    src: url('blackcasper-webfont.woff2') format('woff2');
+    font-family: '20_dbregular';
+    src: url('20db-webfont.woff2') format('woff2'),
+         url('20db-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -101,7 +102,7 @@ body{
     text-align: center;
 }
 .main-content .name-content h1{
-    font-family: 'blackcasperregular';
+    font-family: '20_dbregular';
     font-size: 40px;
 }
 .main-content p {
