@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #3e3b4a;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.main__inner-box1{
+    background: url(./img/box1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.main__inner-box2{
+    background: #74b9c6 url(./img/box2.png) top right no-repeat;
+}
