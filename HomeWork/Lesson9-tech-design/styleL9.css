@@ -70,6 +70,9 @@ color: #898691;
 }
 .main__inner-box1{
     flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 515px;
     padding-left: 40px;
     padding-top: 35px;
     padding-bottom: 40px;
@@ -85,8 +88,10 @@ color: #898691;
 .box1__text{
     font-size: 36px;
     color: #fff;
-    margin-bottom: 75px;
     margin-top: 15px;
+}
+.box1__link{
+    margin-top: auto;
 }
 .main__links{
     width: 128px;
@@ -248,4 +253,7 @@ input[type="email"]::placeholder{
 .footer__inner-copyright{
     font-size: 14px;
     color: #898691;
+}
+.facebook{
+    margin-right: 20px;
 }
