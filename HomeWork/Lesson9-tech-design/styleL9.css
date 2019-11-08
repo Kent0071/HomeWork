@@ -14,8 +14,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 62px;
-    padding-bottom: 73px;
+    height: 204px;
+    /*padding-top: 62px;
+    padding-bottom: 73px;*/
 }
 .header__menu-box{
     display: inline-flex;
@@ -137,6 +138,7 @@ color: #898691;
     margin-top: 20px;
     padding: 70px 45px 72px 50px;
     flex-basis: 380px;
+    height: 485px;
     background: #eb7b61;
     text-align: center;
     font-family: 'Times New Roman', Georgia, Times, serif;
@@ -228,6 +230,7 @@ input[type="email"]::placeholder{
     display: inline-flex;
     flex-direction: column;
     flex-basis: 460px;
+    height: 420px;
     background: #1ab467 url(./img/box6.png) no-repeat right bottom;
     margin-top: 20px;
     padding: 30px 0px 40px 40px;
