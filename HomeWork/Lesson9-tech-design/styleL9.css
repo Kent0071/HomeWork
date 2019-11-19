@@ -8,6 +8,7 @@ body{
 }
 .wrapper{
     max-width: 1020px;
+    width: 100%;
     margin: 0 auto;
 }
 .header__inner{
@@ -62,6 +63,7 @@ color: #898691;
 .main__inner{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .main__box-name{
     color: #ffc7b0;
@@ -73,7 +75,7 @@ color: #898691;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    height: 515px;
+    min-height: 515px;
     padding-left: 40px;
     padding-top: 35px;
     padding-bottom: 40px;
@@ -114,8 +116,7 @@ color: #898691;
     flex-direction: column;
     flex-basis: 620px;
     margin-top: 20px;
-    margin-right: 20px;
-    height: 485px;
+    min-height: 485px;
     padding: 30px 0 40px 40px;
     background: #79bdca url(./img/box2.png) top right no-repeat;
 }
@@ -138,7 +139,7 @@ color: #898691;
     margin-top: 20px;
     padding: 70px 45px 72px 50px;
     flex-basis: 380px;
-    height: 485px;
+    min-height: 485px;
     background: #eb7b61;
     text-align: center;
     font-family: 'Times New Roman', Georgia, Times, serif;
@@ -182,10 +183,10 @@ input[type="email"]::placeholder{
 .main__inner-box4,
 .main__inner-box5{
     padding: 30px 0px 40px;
-    height: 420px;
+    min-height: 420px;
     flex-basis: 260px;
     color: #fff;
-    margin: 20px 20px 0 0;
+    margin-top: 20px;
     align-items: center;
     text-align: center;
     display: inline-flex;
@@ -194,10 +195,13 @@ input[type="email"]::placeholder{
 }
 .main__inner-box4{
     background: url(./img/box4.jpg);
+    background-size: cover;
     
 }
 .main__inner-box5{
     background: url(./img/box5.jpg);
+    background-size: cover;
+    
 }
 .box4__title{
     font-size: 36px;
@@ -230,7 +234,7 @@ input[type="email"]::placeholder{
     display: inline-flex;
     flex-direction: column;
     flex-basis: 460px;
-    height: 420px;
+    min-height: 420px;
     background: #1ab467 url(./img/box6.png) no-repeat right bottom;
     margin-top: 20px;
     padding: 30px 0px 40px 40px;
