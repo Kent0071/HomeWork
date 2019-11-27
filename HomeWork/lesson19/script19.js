@@ -69,13 +69,18 @@ switch (value) {
 min(3, 5) // вернет 3
 min(5, -1) // вернет -1 */
 
-  function min(a, b) {
+   function min(a, b) {
     if (a < b) {
       return a;
-    } else {
+    } else if (a > b) {
       return b;
+    }else{
+      return 'Значения равны';
     }
   }
 
   console.log(min(3, 5));
   console.log(min(5, -1));
+  console.log(min(3, 3)); 
+
+  
