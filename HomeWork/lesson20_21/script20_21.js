@@ -4,9 +4,19 @@
 1) Слово которое нужно найти
 2) Массив в котором находятся элементы со словами. Например ['Кот', 'Собака', 'Жираф' ]
 Функция должна вернуть true или false */
-
-
-
+let array = ['Кот', 'Собака', ];
+let searchKey = 'Жираф';
+ function searchArrayWord(searchCriteria, searchArray){
+    for(let key of searchArray){
+         if (searchCriteria == key){
+            return true;
+            
+            }
+        }
+        return false;
+    }
+ 
+console.log(searchArrayWord(searchKey, array));
 /* 2. Определить среднее арифмитическое чисел из массива.
 var arr = [1, 2, 3, 7, 6, 9]; */
 
