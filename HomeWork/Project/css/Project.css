@@ -164,7 +164,7 @@ align-items: center;
 }
 .menu__inner{
     display: flex;
-    padding: 105px 25px 90px 160px;
+    padding: 104px 25px 90px 160px;
     justify-content: space-between;
 
 }
@@ -190,9 +190,26 @@ align-items: center;
     font-family: 'fontb6716754c58f61688abe5416f1259b21';
     color: #fff;
 }
+.menu__items-name{
+    position: relative;
+}
+.special{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 69px;
+    height: 22px;
+    background: #bf4434;
+    right: -72px;
+    bottom: 50%;
+    padding: 0 13px;
+}
 .menu__items-name-cost{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 15px;
    
 }
 .menu__items-description{
@@ -206,8 +223,81 @@ align-items: center;
 }
 .menu__inner-appetiters,
 .menu__inner-startes{
-    margin-bottom: 75px;
+    margin-bottom: 65px;
 }
+.bgOn{
+    background-image: none;
+    padding-bottom: 0;
+}
+.quest__review-inner{
+    padding: 120px 0 140px;
+
+}
+.quest__review-title{
+    font-family: 'Marck Script', cursive;
+    color: #333333;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 45px;
+    background: url(../img/about-decor-1.png) no-repeat bottom center,
+                url(../img/quest.png) no-repeat top center;
+}
+.quest__review-text{
+    max-width: 950px;
+    margin: 40px auto 0;
+    text-align: center;
+    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-size: 25px;
+    line-height: 45px;
+    color: #1a1f3b;
+}
+.quest__review-stars{
+    font-size: 41px;
+    line-height: 45px;
+    color: #1a1f3b;
+    font-family: 'Marck Script', cursive;
+    padding-bottom: 55px;
+    margin-top: 65px;
+    text-align: center;
+    background: url(../img/stars.png) no-repeat bottom center;
+}
+.quest__form{
+    background: url(../img/form-bg.jpg) no-repeat center center;
+}
+.quest__form-img{
+    display: flex;
+    margin-right: 100px;
+}
+.quest__form-inner{
+    display: flex;
+    padding: 100px 70px 100px 90px;
+}
+.quest__form-imgFirst{
+    margin-right: 30px;
+}
+.quest__form-box-title{
+    font-size: 36px;
+    line-height: 24px;
+    color: #fb5231;
+    font-family: 'Marck Script', cursive;
+    padding-bottom: 40px;
+    text-align: center;
+    background: url(../img/about-decor-1.png) no-repeat bottom center;
+}
+.quest__form-box-text{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+
+
 
 
 
