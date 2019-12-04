@@ -287,15 +287,55 @@ align-items: center;
 }
 .quest__form-box-text{
     margin-top: 30px;
+    margin-bottom: 100px;
     font-size: 16px;
     line-height: 24px;
     color: #4c4c4c;
     font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
     text-align: center;
     padding: 0 10px;
-
 }
-
+.form__inner-box{
+    display: flex;
+    justify-content: space-between;
+}
+.form__inner-left,
+.form__inner-right{
+    max-width: 200px;
+    width: 100%;
+}
+.form__inner label,
+.form__inner input{
+    display: block;
+    width: 100%;
+}
+.form__inner label{
+    font-size: 14px;
+    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    color: #fb5231;
+}
+.form__inner input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 34px;
+    border: 1px solid #c8c6c6;
+    padding: 0 15px;
+}
+input:focus {
+    border-color: red;
+}
+.form__inner-bottom{
+    text-align: center;
+}
+.form__inner-bottom button{
+    max-width: 200px;
+    padding: 7px 55px;
+    color: #fff;
+    background: #fb5231;
+    border-color: #fb5231;
+    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-size: 16px;
+}
 
 
 
@@ -354,3 +394,4 @@ align-items: center;
     padding-top: 30px;
     padding-right: 75px;
 }
+
