@@ -101,8 +101,13 @@
         padding-bottom: 80px;
         min-height: 650px;
     }
+    .header__top{
+        justify-content: space-around;
+    align-items: center;
+    }
     .header__top-burger{
         display: block;
+        order: 1;
     }
     .header__top-menu{
         display: none;
@@ -333,6 +338,6 @@
         height: 90px;
     }
     .about__ingradient-descSecond{
-        padding: 0px 20px 40px;
+        padding: 0px 15px 40px;
     }
 }
