@@ -375,10 +375,14 @@ min-height: 79px;
     background: #f0f1f2;
     font-family: 'font0c860008972cab15031f7e28ac8a3719';
     font-size: 12px;
+    color: #a4a4a4;
 }
 input[type="date"]{
    background: #f0f1f2 url(../img/date-i.png) no-repeat ; 
     background-position: 96%;
+    font-family: 'font0c860008972cab15031f7e28ac8a3719'!important; 
+    font-size: 12px!important;
+    color: #a4a4a4;
 }
 input[type="number"]{
     background: #f0f1f2 url(../img/numder-i.png) no-repeat;
