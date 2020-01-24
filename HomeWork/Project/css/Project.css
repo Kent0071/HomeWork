@@ -3,26 +3,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i&display=swap&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic-ext');
 @font-face {
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';/*focus regular*/
-        
-        src:    url('https://nomail.com.ua/files/eot/90b3fcc950cd1381e00c6552fbd79e19.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/90b3fcc950cd1381e00c6552fbd79e19.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/90b3fcc950cd1381e00c6552fbd79e19.woff2') format('woff2');
-    }
-    @font-face {
-        font-family: 'fontb6716754c58f61688abe5416f1259b21';/*focus medium*/
-            
-            src:    url('https://nomail.com.ua/files/eot/b6716754c58f61688abe5416f1259b21.eot?#iefix') format('embedded-opentype'),
-                    url('https://nomail.com.ua/files/woff/b6716754c58f61688abe5416f1259b21.woff') format('woff'),
-                    url('https://nomail.com.ua/files/woff2/b6716754c58f61688abe5416f1259b21.woff2') format('woff2');
-        }
+	font-family: 'Focus';
+	src: url('../fonts/Focus-Regular[2].eot');
+	src: local('☺'), url('../fonts/Focus-Regular[2].woff') format('woff'), url('../fonts/Focus-Regular[2].ttf') format('truetype'), url('../fonts/Focus-Regular[2].svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Focus';
+	src: url('../fonts/Focus-Medium.eot');
+	src: local('☺'), url('../fonts/Focus-Medium.woff') format('woff'), url('../fonts/Focus-Medium.ttf') format('truetype'), url('../fonts/Focus-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
         @font-face {
-            font-family: 'font0c860008972cab15031f7e28ac8a3719';/*focus italic*/
-                
-                src:    url('https://nomail.com.ua/files/eot/0c860008972cab15031f7e28ac8a3719.eot?#iefix') format('embedded-opentype'),
-                        url('https://nomail.com.ua/files/woff/0c860008972cab15031f7e28ac8a3719.woff') format('woff'),
-                        url('https://nomail.com.ua/files/woff2/0c860008972cab15031f7e28ac8a3719.woff2') format('woff2');
-            }
+            font-family: 'Focus';
+            src: url('../fonts/Focus-Italic.eot');
+            src: local('☺'), url('../fonts/Focus-Italic.woff') format('woff'), url('../fonts/Focus-Italic.ttf') format('truetype'), url('../fonts/Focus-Italic.svg') format('svg');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
             
 
 /* font-family: 'Lato', sans-serif;
@@ -76,7 +78,7 @@ min-height: 79px;
     padding: 0;
     display: inline-block;
     font-size: 16px;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
 }
 .header__top-menu a{
     text-decoration: none; 
@@ -105,7 +107,7 @@ min-height: 79px;
 .header__center-btn a{
     text-decoration: none;
     color: #fff;
-    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-family: 'Focus';
     font-size: 18px;
     border: 1px solid #bab9b5;
     padding: 20px 65px 15px 65px;
@@ -138,7 +140,7 @@ min-height: 79px;
 }
 .about__story-text{
     max-width: 510px;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
     font-size: 16px;
     line-height: 24px;
     color: #4c4c4c;
@@ -173,7 +175,7 @@ min-height: 79px;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
 }
 .about__ingradient-descSecond-img{
     margin-top: 35px;
@@ -232,7 +234,8 @@ min-height: 79px;
 .menu__items-cost{
     font-size: 21px;
     line-height: 24px;
-    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-family: 'Focus';
+    font-weight: 500;
     color: #fff;
 }
 .menu__items-name{
@@ -261,7 +264,7 @@ min-height: 79px;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
     letter-spacing: normal;
     padding-bottom: 15px;
     background: url(../img/line.png) no-repeat bottom center;
@@ -292,7 +295,7 @@ min-height: 79px;
     max-width: 950px;
     margin: 40px auto 0;
     text-align: center;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
     font-size: 25px;
     line-height: 45px;
     color: #1a1f3b;
@@ -337,7 +340,7 @@ min-height: 79px;
     font-size: 16px;
     line-height: 24px;
     color: #4c4c4c;
-    font-family: 'font90b3fcc950cd1381e00c6552fbd79e19';
+    font-family: 'Focus';
     text-align: center;
     padding: 0 10px;
 }
@@ -364,7 +367,7 @@ min-height: 79px;
 }
 .form__inner label{
     font-size: 14px;
-    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-family: 'Focus';
     color: #fb5231;
 }
 .form__inner input{
@@ -373,7 +376,8 @@ min-height: 79px;
     border: 1px solid #c8c6c6;
     padding: 0 15px;
     background: #f0f1f2;
-    font-family: 'font0c860008972cab15031f7e28ac8a3719';
+    font-family: 'Focus';
+    font-style: italic;
     font-size: 12px;
     color: #a4a4a4;
 }
@@ -400,7 +404,7 @@ input:focus {
     color: #fff;
     background: #fb5231;
     border: none;
-    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-family: 'Focus';
     font-size: 16px;
 }
 #footer{
@@ -420,7 +424,7 @@ input:focus {
     padding-top: 35px;
     text-align: center;
     color: #75767d;
-    font-family: 'fontb6716754c58f61688abe5416f1259b21';
+    font-family: 'Focus';
     font-size: 13px;
     line-height: 22px;
 }
